@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    gap: 32px;
+}
+ 
+.titulo {
+    font-size: 70px;
+}
+ 
+.form {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.admissao {
+    font-size: 40px;
+}
+ 
+.admissao_input {
+    font-size: 30px;
+    border: 2px solid black;
+}
+ 
+.demissao {
+    font-size: 40px;
+}
+ 
+.demissao_input {
+    font-size: 30px;
+    border: 2px solid black;
+}
+ 
+.botao {
+    font-size: 30px;
+    color: white;
+    background-color: green;
+}
+ 
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    background-color: rgb(231, 231, 231);
+    padding: 20px;
+}
+ 
